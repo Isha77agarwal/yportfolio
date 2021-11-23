@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root {
+    --color1: #fb839e;
+    --bg-black-50: #eff0f4;
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px -3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+}
+
+.logo {
+    font-family: 'Cedarville Cursive', cursive  !important;
+    font-size: 2rem;
+    color: var(--color1);
+    border-color: var(--color1);
+}
+
+.lightNav {
+    background-color: var(--bg-black-50);
+}
+
+.lightHam {
+    box-shadow: var(--outer-shadow);
+}
